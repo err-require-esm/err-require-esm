@@ -19,6 +19,7 @@ export default defineConfig({
         ...Object.keys(pkg.dependencies),
       ],
     },
+    target: 'es2022',
   },
   plugins: [dts()],
 })
