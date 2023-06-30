@@ -6,7 +6,7 @@ export default [
     files: ['**/*.ts'],
     languageOptions: {
       parserOptions: {
-        project: ['./tsconfig.json', './tsconfig.node.json'],
+        project: ['./packages/*/tsconfig.json', './packages/*/tsconfig.node.json'],
       },
     },
   },

@@ -1,0 +1,35 @@
+{
+  "name": "unplugin-require-esm",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "An interesting Unplugin that does its best to make your code run only in an ES Modules.",
+  "author": "藍+85CD",
+  "license": "WTFPL",
+  "homepage": "https://github.com/err-require-esm/unplugin-require-esm",
+  "repository": "github:err-require-esm/unplugin-require-esm",
+  "bugs": "https://github.com/err-require-esm/unplugin-require-esm/issues",
+  "keywords": [
+    "unplugin",
+    "typescript"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^5.0.2",
+    "magic-string": "^0.30.0",
+    "unplugin": "^1.3.1"
+  }
+}
