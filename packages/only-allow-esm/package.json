@@ -1,0 +1,29 @@
+{
+  "name": "only-allow-esm",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "",
+  "author": "藍+85CD",
+  "license": "WTFPL",
+  "homepage": "https://github.com/err-require-esm/err-require-esm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/err-require-esm/err-require-esm.git",
+    "directory": "packages/only-allow-esm"
+  },
+  "bugs": "https://github.com/err-require-esm/unplugin-require-esm/issues",
+  "keywords": ["typescript"],
+  "exports": {
+    ".": {
+      "import": "./bin.js"
+    }
+  },
+  "main": "./bin.js",
+  "module": "./bin.js",
+  "bin": "./bin.js",
+  "files": ["bin.js"],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  }
+}

@@ -1,5 +1,6 @@
 {
   "name": "@err-require-esm/monorepo",
+  "type": "module",
   "private": true,
   "scripts": {
     "build": "pnpm -r build",
