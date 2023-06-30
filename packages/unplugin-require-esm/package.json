@@ -5,8 +5,12 @@
   "description": "An interesting Unplugin that does its best to make your code run only in an ES Modules.",
   "author": "藍+85CD",
   "license": "WTFPL",
-  "homepage": "https://github.com/err-require-esm/unplugin-require-esm",
-  "repository": "github:err-require-esm/unplugin-require-esm",
+  "homepage": "https://github.com/err-require-esm/err-require-esm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/err-require-esm/err-require-esm.git",
+    "directory": "packages/unplugin-require-esm"
+  },
   "bugs": "https://github.com/err-require-esm/unplugin-require-esm/issues",
   "keywords": [
     "unplugin",
