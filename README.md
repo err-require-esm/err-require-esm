@@ -4,7 +4,7 @@
 
 <!-- ### `only-allow-esm` -->
 
-### `unplugin-require-esm`
+### [`unplugin-require-esm`](/packages/unplugin-require-esm/)
 
 An interesting Unplugin that does its best to make your code run only in an ES Modules. [WIP]
 
