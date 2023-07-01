@@ -2,11 +2,13 @@
 
 ## Packages
 
-<!-- ### `only-allow-esm` -->
+### [`only-allow-esm`](/packages/only-allow-esm/)
+
+Force ES Modules to be used on a project.
 
 ### [`unplugin-require-esm`](/packages/unplugin-require-esm/)
 
-An interesting Unplugin that does its best to make your code run only in an ES Modules. [WIP]
+An interesting Unplugin that does its best to make your code run only in an ES Modules.
 
 ## License
 

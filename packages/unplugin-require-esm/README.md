@@ -1,6 +1,6 @@
 # Unplugin REQUIRE_ESM
 
-An interesting Unplugin that does its best to make your code run only in an ES Modules. [WIP]
+An interesting Unplugin that does its best to make your code run only in an ES Modules.
 
 ## Install
 
