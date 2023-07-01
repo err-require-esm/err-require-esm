@@ -2,7 +2,7 @@
   "name": "only-allow-esm",
   "type": "module",
   "version": "0.0.1",
-  "description": "",
+  "description": "Force ES Modules to be used on a project.",
   "author": "藍+85CD",
   "license": "WTFPL",
   "homepage": "https://github.com/err-require-esm/err-require-esm",
