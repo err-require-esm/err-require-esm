@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "pnpm -r build",
+    "postinstall": "node ./packages/only-allow-esm/bin.js",
     "release": "pnpm build && pnpm -r publish --no-git-checks --access public"
   },
   "devDependencies": {
