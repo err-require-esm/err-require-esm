@@ -12,7 +12,7 @@
     "directory": "packages/only-allow-esm"
   },
   "bugs": "https://github.com/err-require-esm/unplugin-require-esm/issues",
-  "keywords": ["typescript"],
+  "keywords": [],
   "exports": {
     ".": {
       "import": "./bin.js"
